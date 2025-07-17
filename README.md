@@ -32,22 +32,20 @@ The self-attention scores form a long-tail distribution, where the "active" quer
 
 ## Requirements
 
-- Python 3.6
-- matplotlib == 3.1.1
-- numpy == 1.19.4
-- pandas == 0.25.1
+- Python 3.8
+- matplotlib == 3.5.1
+- numpy == 1.22.4
+- pandas == 1.2.4
 - scikit_learn == 0.21.3
-- torch == 1.8.0
+- torch == 2.1.0
+- PyQt5 == 5.13.0
 
-Dependencies can be installed using the following command:
-```bash
-pip install -r requirements.txt
-```
 
 ## Data
 
 The ETT dataset used in the paper can be downloaded in the repo [ETDataset](https://github.com/zhouhaoyi/ETDataset).
 The required data files should be put into `data/ETT/` folder. A demo slice of the ETT data is illustrated in the following figure. Note that the input of each dataset is zero-mean normalized in this implementation.
+The satellite dataset is data_tpt_0206gbk_final_toplist.csv
 
 <p align="center">
 <img src="./img/data.png" height = "168" alt="" align=center />
