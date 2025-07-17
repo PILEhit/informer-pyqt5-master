@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+         <file>HIT.ico</file>
+    </qresource>
+</RCC>
